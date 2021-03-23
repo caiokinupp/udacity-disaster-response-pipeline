@@ -10,7 +10,6 @@
 3. [Authors](#authors)
 4. [License](#license)
 5. [Acknowledgement](#acknowledgement)
-6. [Screenshots](#screenshots)
 
 <a name="descripton"></a>
 ## Description
@@ -93,7 +92,3 @@ You can use **ML Pipeline Preparation Notebook** to re-train the model or tune i
 
 * [Udacity](https://www.udacity.com/) for providing an amazing Data Science Nanodegree Program
 * [Figure Eight](https://www.figure-eight.com/) for providing the relevant dataset to train the model
-
-<a name="screenshots"></a>
-## Screenshots
-
