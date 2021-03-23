@@ -62,7 +62,38 @@ git clone https://github.com/caiokinupp/udacity-disaster-response-pipeline.git
 ### Additional Material
 
 In the **data** and **models** folder you can find two jupyter notebook that will help you understand how the model works step by step:
-    1. **ETL Preparation Notebook**: learn everything about the implemented ETL pipeline
-    2. **ML Pipeline Preparation Notebook**: look at the Machine Learning Pipeline developed with NLTK and Scikit-Learn
+
+- **ETL Preparation Notebook**: learn everything about the implemented ETL pipeline
+- **ML Pipeline Preparation Notebook**: look at the Machine Learning Pipeline developed with NLTK and Scikit-Learn
 
 You can use **ML Pipeline Preparation Notebook** to re-train the model or tune it through a dedicated Grid Search section.
+
+<a name="importantfiles"></a>
+### Important Files
+**app/templates/***: templates/html files for web app
+
+**data/process_data.py**: Extract Train Load (ETL) pipeline used for data cleaning, feature extraction, and storing data in a SQLite database
+
+**models/train_classifier.py**: A machine learning pipeline that loads data, trains a model, and saves the trained model as a .pkl file for later use
+
+**run.py**: This file can be used to launch the Flask web app used to classify disaster messages
+
+
+<a name="authors"></a>
+## Authors
+
+* [Caio Kinupp](https://github.com/caiokinupp)
+
+<a name="license"></a>
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<a name="acknowledgement"></a>
+## Acknowledgements
+
+* [Udacity](https://www.udacity.com/) for providing an amazing Data Science Nanodegree Program
+* [Figure Eight](https://www.figure-eight.com/) for providing the relevant dataset to train the model
+
+<a name="screenshots"></a>
+## Screenshots
+
